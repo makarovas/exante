@@ -1,0 +1,94 @@
+@import "variables";
+@import "mixins";
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .container {
+    margin: 0 auto;
+    width: 768px;
+    padding: 0 50px;
+  }
+  .header__nav--logo {
+    left: 0;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  body {
+    min-width: 320px;
+  }
+  .header {
+    height: 80px;
+  }
+
+  .container {
+    width: 320px;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+
+  .header__nav--ul {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .header__nav--logo {
+    visibility: hidden;
+  }
+  .header__nav--logo-mobile {
+    visibility: visible;
+  }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
